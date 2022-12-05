@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    img {
+  border: 5px solid #555;
+}
+   </style>
+  </head>
+  <body>
+    <!-- Önemli thead ve tbody iki ayrı kısım oldugundan
+    rowspan colspan çalısmıyor.... -->
+    <table border="5">
+      ​
+      <thead>
+        <th>logo</th>
+        <th colspan="3">logo1</th>
+        <!-- <th>logo1</th> -->
+        <!-- <th>logo1</th> -->
+      </thead>
+      ​
+      <tbody>
+        <tr>
+          <td>logo</td>
+          <td colspan="2">shcedule</td>
+          <!-- <td>shcedule</td> -->
+          <td rowspan="2">topic</td>
+        </tr>
+        <tr>
+          <td>logo</td>
+          <td>begin</td>
+          <td>end</td>
+          <!-- <td>topic</td> -->
+        </tr>
+        <tr>
+          <td>Tuesday:</td>
+          <td>07:00 am</td>
+          <td>10:00 am</td>
+          <td rowspan="2">
+            Computer Fundamentals
+            <ul>
+              <li>hardware</li>
+              <li>os</li>
+              <li>strage</li>
+              <li>data</li>
+            </ul>
+            ​ ​ ​
+          </td>
+        </tr>
+        <tr>
+          <td rowspan="3">thursday</td>
+          <td>07:00 am</td>
+          <td>07:50 am</td>
+          <!-- <td>​</td> -->
+        </tr>
+        <tr>
+          <!-- <td>thursday</td> -->
+          <td>08:00 am</td>
+          <td>08:50 am</td>
+          <td rowspan="2">
+            <mark>HTML</mark> <br />
+            Css
+          </td>
+        </tr>
+
+        <tr>
+          <!-- <td>thursday</td> -->
+          <td>09:00 pm</td>
+          <td>10:00pm</td>
+          <td>
+            <!-- <del>Css</del> -->
+            <tr>
+              <td>sturday</td>
+              <td>11:00 pm</td>
+              <td>4:00 pm</td>
+              <td>computer fundamenttals</td>
+            </tr>
+            <tr>
+              <td>sunday</td>
+              <td>11:00 pm</td>
+              <td>4:00 pm</td>
+              <td>
+                <mark>HTML</mark>
+                <ol>
+                  <li>formatting elements</li>
+                  <li>list</li>
+                  <li>tables</li>
+                </ol>
+              </td>
+            </tr>
+            ​ ​
+          </td>
+        </tr>
+      </tbody>
+
+      ​ ​
+    </table>
+    ​
+  </body>
+</html>
