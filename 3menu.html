@@ -21,9 +21,35 @@
    }
    a:hover{
     background-color:tomato;
-    color:saddlebrown;
+    color:saddlebrown;}
 
-}
+   .nav li{     /*inline tagların bazıları margin padding almıyor. bu yüzden sadece inline degil
+                    inline-block değeri vermek lazım.*/ 
+    display: inline-block;  /* görüntüsünü inline yap. çünkü li bloktu inline yaptık.*/
+    width: 100px;  /* yazıların karakterleri farklı oldugu için butonların boyutlarını sabit deger verdik.*/
+    margin-right: 10px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+
+    }
+    
+    nav{
+        text-align: center; 
+    }
+
+   .nav li:hover{
+    cursor: pointer;
+    background-color: coral;
+    color: bisque;
+    font-weight: 900;
+    }
+
+    h1:hover{
+        opacity: 0.5; /* saydamlıgı düşür...*/
+
+    }
 
 </style>
 
@@ -39,6 +65,17 @@
         <a href="#">Courses</a>
         <a href="#">Contact</a>
         </div>
+
+        <h1>menu2</h1>
+    <nav>
+        <ul class="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>People</li>
+            <li>Courses</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
 
 </body>
 </html>

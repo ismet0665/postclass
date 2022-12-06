@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* verdiğimiz uzunlukne ise onu görmeliyiz diye...*/
+}
+
+body{
+    font-family: Roboto;
+}
+/* labellara sabit deger verirsek sabit yer kaplarlar.*/
+/*label inline oldugu için inline-block yapmalıyız.*/
+label{
+    display: inline-block;
+    width: 110px;
+}
+
+/*text-align : center yada margin:auto ortalamak için hangisi yerse:)*/
+form{
+    background-color: aquamarine;
+    text-align:left ;
+    padding: 20px;
+    width: fit-content; /* formun içerigi örtüşsün*/
+    margin: 10px auto; /* ortalamak için*/ 
+}
+
+
