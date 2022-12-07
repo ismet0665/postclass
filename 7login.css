@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(./resimler/bulut.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png);  
+    text-align: center; 
+    background-size: 100%;  /* resmin uzunlugu*/
+
+}
+
+h1{
+    text-align: center;
+    margin: 30px auto;
+}
+
+div{
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+form{
+    border-radius: 15px;
+    background: linear-gradient(225deg, #98d3ff, #80b1e3);
+    box-shadow:  -20px 20px 12px #84b7ea,
+                20px -20px 12px #98d3ff;
+  
+    /* background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    width: 400px;
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    font-weight: 900;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 3px;
+    border: none;
+}
+
+.btn{
+    width: 80px;
+    height: 30px;
+    border: none; /* çizgiler iptal*/
+    background-color: #DF9FDC;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: rgb(242, 95, 247);
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+
+
