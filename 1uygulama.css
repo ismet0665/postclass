@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 5px;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+div{
+    margin:10px 0px;
+    padding: 5px;
+}
+
+.lb{
+    display: block;
+    padding-bottom: 10px;
+}
+
+.y{
+    height: 30px;
+}
+
+
+p {
+    font-size: 1.5rem;
+}
+
